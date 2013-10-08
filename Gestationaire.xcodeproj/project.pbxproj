@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		842B0CEA18043A1C00C39B04 /* Trash_Close.png in Resources */ = {isa = PBXBuildFile; fileRef = 842B0CE818043A1C00C39B04 /* Trash_Close.png */; };
+		842B0CEB18043A1C00C39B04 /* Trash_Open.png in Resources */ = {isa = PBXBuildFile; fileRef = 842B0CE918043A1C00C39B04 /* Trash_Open.png */; };
 		84633D81180407BD008A9ABC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84633D80180407BD008A9ABC /* UIKit.framework */; };
 		84633D83180407BD008A9ABC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84633D82180407BD008A9ABC /* Foundation.framework */; };
 		84633D85180407BD008A9ABC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84633D84180407BD008A9ABC /* CoreGraphics.framework */; };
@@ -23,6 +25,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		842B0CE818043A1C00C39B04 /* Trash_Close.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Trash_Close.png; path = Gestationaire/Trash_Close.png; sourceTree = "<group>"; };
+		842B0CE918043A1C00C39B04 /* Trash_Open.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Trash_Open.png; path = Gestationaire/Trash_Open.png; sourceTree = "<group>"; };
 		84633D7C180407BD008A9ABC /* Gestationaire.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gestationaire.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84633D80180407BD008A9ABC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		84633D82180407BD008A9ABC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -61,6 +65,8 @@
 		84633D71180407BD008A9ABC = {
 			isa = PBXGroup;
 			children = (
+				842B0CE818043A1C00C39B04 /* Trash_Close.png */,
+				842B0CE918043A1C00C39B04 /* Trash_Open.png */,
 				84633DA518041D17008A9ABC /* CoreImage.framework */,
 				84633D86180407BD008A9ABC /* Gestationaire */,
 				84633D7F180407BD008A9ABC /* Frameworks */,
@@ -171,6 +177,8 @@
 				84633D97180407BD008A9ABC /* Default-568h@2x.png in Resources */,
 				84633D9D180407BD008A9ABC /* ViewController.xib in Resources */,
 				84633DA4180408DE008A9ABC /* g.png in Resources */,
+				842B0CEA18043A1C00C39B04 /* Trash_Close.png in Resources */,
+				842B0CEB18043A1C00C39B04 /* Trash_Open.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,6 +308,7 @@
 				84633DA2180407BD008A9ABC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
