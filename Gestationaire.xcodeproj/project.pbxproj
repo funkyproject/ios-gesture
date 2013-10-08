@@ -18,6 +18,8 @@
 		84633D97180407BD008A9ABC /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84633D96180407BD008A9ABC /* Default-568h@2x.png */; };
 		84633D9A180407BD008A9ABC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84633D99180407BD008A9ABC /* ViewController.m */; };
 		84633D9D180407BD008A9ABC /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84633D9B180407BD008A9ABC /* ViewController.xib */; };
+		84633DA4180408DE008A9ABC /* g.png in Resources */ = {isa = PBXBuildFile; fileRef = 84633DA3180408DE008A9ABC /* g.png */; };
+		84633DA618041D17008A9ABC /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84633DA518041D17008A9ABC /* CoreImage.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +39,8 @@
 		84633D98180407BD008A9ABC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		84633D99180407BD008A9ABC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		84633D9C180407BD008A9ABC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		84633DA3180408DE008A9ABC /* g.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = g.png; sourceTree = "<group>"; };
+		84633DA518041D17008A9ABC /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +48,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84633DA618041D17008A9ABC /* CoreImage.framework in Frameworks */,
 				84633D81180407BD008A9ABC /* UIKit.framework in Frameworks */,
 				84633D83180407BD008A9ABC /* Foundation.framework in Frameworks */,
 				84633D85180407BD008A9ABC /* CoreGraphics.framework in Frameworks */,
@@ -56,6 +61,7 @@
 		84633D71180407BD008A9ABC = {
 			isa = PBXGroup;
 			children = (
+				84633DA518041D17008A9ABC /* CoreImage.framework */,
 				84633D86180407BD008A9ABC /* Gestationaire */,
 				84633D7F180407BD008A9ABC /* Frameworks */,
 				84633D7D180407BD008A9ABC /* Products */,
@@ -87,6 +93,7 @@
 				84633D90180407BD008A9ABC /* AppDelegate.m */,
 				84633D98180407BD008A9ABC /* ViewController.h */,
 				84633D99180407BD008A9ABC /* ViewController.m */,
+				84633DA3180408DE008A9ABC /* g.png */,
 				84633D9B180407BD008A9ABC /* ViewController.xib */,
 				84633D87180407BD008A9ABC /* Supporting Files */,
 			);
@@ -163,6 +170,7 @@
 				84633D95180407BD008A9ABC /* Default@2x.png in Resources */,
 				84633D97180407BD008A9ABC /* Default-568h@2x.png in Resources */,
 				84633D9D180407BD008A9ABC /* ViewController.xib in Resources */,
+				84633DA4180408DE008A9ABC /* g.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
